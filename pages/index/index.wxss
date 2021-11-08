@@ -1,0 +1,62 @@
+
+
+.scroll-view_H{
+  white-space: nowrap;
+}
+
+.scroll-view-item_H{
+  display: inline-block;
+  width: 34%;
+  margin-left: 20rpx;
+  background: #fff;
+  border-radius: 10rpx;
+  overflow: hidden;
+  box-shadow: 0 10rpx 10rpx #efefef;
+}
+
+.scroll-view-item_H:last-of-type{
+  margin-right: 20rpx;
+}
+
+::-webkit-scrollbar{
+  width: 0;
+  height: 0;
+  color: transparent;
+}
+
+.scroll-view-item_H image{
+  width: 100%;
+  display: block;
+}
+
+.scroll-view-item_H view{
+  line-height: 50rpx;
+  text-align: center;
+  font-size: 28rpx;
+}
+
+.title{
+  height: 100rpx;
+  background-color: #fff;
+  position: relative;
+}
+
+.title .line{
+  width: 40%;
+  height: 4rpx;
+  background: #ccc;
+  position: absolute;
+  left: 0;top: 0;right: 0;bottom: 0;
+  margin: auto;
+}
+
+.title .txt{
+  position: absolute;
+  left: 0;top: 0;right: 0;bottom: 0;
+  margin: auto;
+  width: 30%;
+  text-align: center;
+  line-height: 100rpx;
+  background: #fff;
+}
+

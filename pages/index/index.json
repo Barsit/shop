@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "pro-block": "/components/product/product",
+    "banner-block": "/components/banner/banner"
+  },
+  "navigationStyle": "custom"
+}

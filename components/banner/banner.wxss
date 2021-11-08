@@ -1,0 +1,35 @@
+/* swiper样式 */
+.swiper{
+  width: 100%;
+  /* height: calc((720/1080)*100vw); */
+  position: relative;
+}
+
+.indicators{
+  position: absolute;
+  right: 20rpx;
+  bottom: 20rpx;
+}
+
+.indicators view{
+  width: 40rpx;
+  height: 40rpx;
+  border-radius: 20rpx;
+  background: #ccc;
+  float: left;
+  margin-left: 20rpx;
+  transition: all .5s linear;
+}
+
+.indicators view.active{
+  background: #333999;
+  width: 80rpx;
+}
+
+swiper image{
+  width: 100vw;
+}
+
+/* swiper, swiper-item{
+  height: calc((720/1080)*100vw);
+} */

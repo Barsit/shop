@@ -1,0 +1,14 @@
+<!-- 
+  每一个点身上都有一个索引值
+  定义一个数值activeNum，当这个数值跟索引值相等时，对应的那个点就是active
+ -->
+<view class="swiper" style="height: calc(({{imgHeight}}/1080)*100vw">
+	<swiper autoplay="{{autoplay}}" interval="{{interval}}" bindchange="changeFn" style="height: calc(({{imgHeight}}/1080)*100vw">
+		<swiper-item wx:for="{{backgroundArr}}" wx:key="*this" style="height: calc(({{imgHeight}}/1080)*100vw">
+			<image src="{{item}}" mode="widthFix"></image>
+		</swiper-item>
+	</swiper>
+  <view class="indicators">
+    <view wx:for="{{backgroundArr}}" wx:key="*this" class="{{activeNum==index ? 'active' : ''}}"></view>
+  </view>
+</view>

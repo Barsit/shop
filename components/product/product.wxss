@@ -1,0 +1,28 @@
+/* new_product */
+
+.new_product{
+  padding: 40rpx 4%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.new_product view{
+  width: 48%;
+  border-radius: 10rpx;
+  box-shadow: 0 0 10px #ccc;
+  margin-bottom: 20rpx;
+  overflow: hidden;
+}
+
+.new_product view image{
+  width: 100%;
+}
+
+.new_product view text{
+  display: block;
+  height: 50rpx;
+  line-height: 50rpx;
+  text-align: center;
+  font-size: 28rpx;
+}

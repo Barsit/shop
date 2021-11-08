@@ -1,0 +1,6 @@
+<view class="new_product">
+	<view wx:for="{{showArr}}" wx:key="*this" bindtap="eventFn">
+		<image mode="widthFix" src="{{item.imgSrc}}"></image>
+		<text>{{item.imgTxt}}</text>
+	</view>
+</view>
